@@ -19,6 +19,12 @@
 html, body {
     overflow: hidden !important;
 }
+.description h3,
+.description h4 {
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 html,
 body {
     height: 100%;
