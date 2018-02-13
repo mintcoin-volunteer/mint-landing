@@ -13,11 +13,13 @@
     font-weight: normal;
     font-style: normal;
 }
-/* html {
-
-} */
 html, body {
     overflow: hidden !important;
+}
+.row-underline [class*='col'] {
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .description h3,
 .description h4 {
@@ -398,5 +400,10 @@ a {
     100% {
         opacity: 0;
         transform: translateY(30px);
+    }
+}
+@media (max-width: 991px) {
+    .row-table * {
+        font-size: 18px;
     }
 }
