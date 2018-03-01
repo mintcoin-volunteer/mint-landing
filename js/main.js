@@ -12,4 +12,4 @@ $(document).ready(function(){
         $(".bottom-1").toggleClass("fade-in-social fade-out-social");
         $(".bottom-1").removeClass("animate-first");
     });
-})
+});
