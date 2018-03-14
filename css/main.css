@@ -194,7 +194,7 @@ a {
 :root:root:root .text-wrap-inner button {
     box-shadow: 0 2px 2px 0px rgba(0,0,0,.2) !important;
     cursor: pointer !important;
-    padding: 15px !important;
+    padding: 8px !important;
     font-size: 18px !important;
     border: 2px solid white !important;
     display: block !important;
